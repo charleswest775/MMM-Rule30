@@ -1,7 +1,7 @@
 {
   "name": "mmm-rule30",
   "version": "1.0.0",
-  "description": "MagicMirror² module: Rule 30: one rule, a row of cells, drawn a row at a time from a single cell: regular on the left, random on the right.",
+  "description": "MagicMirror² module: Wolfram's rule 30 grown from a single cell, a row at a time, regular on the left and random on the right, drawn for a Raspberry Pi without a GPU.",
   "main": "MMM-Rule30.js",
   "scripts": {
     "test": "node --test"
