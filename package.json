@@ -1,28 +1,24 @@
 {
-  "name": "mmm-chaostheory",
+  "name": "mmm-rule30",
   "version": "1.0.0",
-  "description": "MagicMirror² module: chaos theory in motion, physically correct and cheap enough for a Raspberry Pi: the Lorenz attractor, diverging double pendulums, fractal basins, the logistic map, symmetric icons, the three-body problem, chaotic billiards and rule 30, each with its equations and live numbers.",
-  "main": "MMM-ChaosTheory.js",
+  "description": "MagicMirror² module: Rule 30: one rule, a row of cells, drawn a row at a time from a single cell: regular on the left, random on the right.",
+  "main": "MMM-Rule30.js",
   "scripts": {
     "test": "node --test"
   },
   "keywords": [
     "MagicMirror",
     "chaos",
-    "chaos theory",
-    "double pendulum",
-    "Lorenz attractor",
-    "three-body problem",
-    "fractal",
-    "logistic map",
-    "billiards",
+    "cellular automaton",
     "rule 30",
-    "physics",
+    "Wolfram",
+    "randomness",
+    "mathematics",
     "animation"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/charleswest775/MMM-ChaosTheory.git"
+    "url": "https://github.com/charleswest775/MMM-Rule30.git"
   },
   "author": "Charles West",
   "license": "MIT"

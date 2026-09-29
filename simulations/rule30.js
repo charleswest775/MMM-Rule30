@@ -104,14 +104,14 @@
 		title: "Rule 30",
 		subtitle: "a row of cells, each new row made by one rule from the last, starting from a single cell",
 		equations: [
-			"next = left ⊕ (centre ∨ right) &nbsp; <span class=\"chaos-note\">(on if the left neighbour was on, or else if the cell or its right neighbour was, but not both kinds)</span>",
-			"<span class=\"chaos-note\">Stephen Wolfram found in 1983 that this, rule 30 of the 256 such rules, makes randomness out of nothing: the centre column has passed every test for it, and Mathematica used it for random numbers. In 2019 he offered $30,000 for proofs about it, for instance that its 1s and 0s come equally often. The shell of the sea snail Conus textile grows a pattern much like it.</span>"
+			"next = left ⊕ (centre ∨ right) &nbsp; <span class=\"rule30-note\">(on if the left neighbour was on, or else if the cell or its right neighbour was, but not both kinds)</span>",
+			"<span class=\"rule30-note\">Stephen Wolfram found in 1983 that this, rule 30 of the 256 such rules, makes randomness out of nothing: the centre column has passed every test for it, and Mathematica used it for random numbers. In 2019 he offered $30,000 for proofs about it, for instance that its 1s and 0s come equally often. The shell of the sea snail Conus textile grows a pattern much like it.</span>"
 		]
 	};
 	Rule30.run = run;
 	Rule30.generation = generation;
 
-	root.ChaosSimulations = root.ChaosSimulations || {};
-	root.ChaosSimulations.rule30 = Rule30;
+	root.Rule30Simulations = root.Rule30Simulations || {};
+	root.Rule30Simulations.rule30 = Rule30;
 	if (typeof module !== "undefined") module.exports = { Rule30 };
 })(typeof window !== "undefined" ? window : globalThis);
